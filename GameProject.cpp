@@ -2589,7 +2589,7 @@ void news()
 }
 
 
-void losemenu(int time, int &killed, int level)
+void losemenu(int time, int killed, int level)
 {
 	system("cls");
 	SetConsoleMode(hin, ENABLE_MOUSE_INPUT | ENABLE_EXTENDED_FLAGS);
@@ -2670,7 +2670,7 @@ void losemenu(int time, int &killed, int level)
 }
 
 
-void winmenu(int time, int &killed, int level)
+void winmenu(int time, int killed, int level)
 {
 	system("cls");
 	SetConsoleMode(hin, ENABLE_MOUSE_INPUT | ENABLE_EXTENDED_FLAGS);
